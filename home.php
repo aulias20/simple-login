@@ -34,7 +34,6 @@
     <?php
         session_start();
         $user = $_SESSION['user'];
-        $conn = new mysqli("localhost","root","","logintoday");
         if(empty($_SESSION['user'])){
             header("location:index.php?pesan=belum_login");
         }
@@ -48,7 +47,7 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Welcome, <?php $user ?> !</p>
+                        <p class="text-white-75 font-weight-light mb-5">Welcome, <?php echo $user; ?> !</p>
                         <p class="text-white-75 font-weight-light mb-5">NIM: 123180169</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="logout.php">Logout</a>
                     </div>

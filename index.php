@@ -37,7 +37,7 @@
 						Sign In 
 					</span>
 					<span>
-						user: "ifupnyk" (all lowercase) - pass: "1995"
+						user: "ifupnyk" - pass: "1995"
 					</span>
 				</div>
 				<!-- MASUK KE LOGIN -->

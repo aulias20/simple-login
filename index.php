@@ -35,7 +35,9 @@
 				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
 					<span class="login100-form-title-1">
 						Sign In 
-						<br>Hint: username "ifupnyk" pass "1995"</br>
+					</span>
+					<span>
+						Hint: username "ifupnyk" pass "1995"
 					</span>
 				</div>
 				<!-- MASUK KE LOGIN -->

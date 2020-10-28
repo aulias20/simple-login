@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Creative - Start Bootstrap Theme</title>
+        <title>Welcome!</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -48,6 +48,7 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5">Welcome, <?php $user ?> !</p>
                         <p class="text-white-75 font-weight-light mb-5">NIM: 123180169</p>
                         <a class="btn btn-primary btn-xl js-scroll-trigger" href="logout.php">Logout</a>
                     </div>
